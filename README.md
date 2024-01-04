@@ -43,9 +43,12 @@
  - Historical Industry returns
  - Competitive positioning
   - Cylical/Seasonal
+    
 #
 [1-page Hedge fund Case study](https://www.streetofwalls.com/finance-training-courses/hedge-fund-training/hedge-fund-case-study-1-page/)
 
 ## A quantative analysis based screener:
 - The main drivers: Profitability, Valuation, Cash Flow, Growth, Capital Allocation, Price Momentum
 - Run tests over a ~30 year period 1993 - 2023
+Steps:
+1. Calcualate CAGR over specified period
