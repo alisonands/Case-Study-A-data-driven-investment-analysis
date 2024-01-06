@@ -10,6 +10,9 @@
   - Net Income/Shareholder's Equity
   - Measures the ability of a company's management to turn a profit
 
+#### Questions to be answered:
+- How have sectors performed over the years. What has grown, what has become relatively small? Show this in a plotly animation.
+
 ### Stock Idea Generation
 - An attractive long position: undervalued by the market and under-earning.
   - Under-earning --> the company is noe realizing its full potential
