@@ -52,9 +52,5 @@
 
 ## A quantative analysis based screener:
 - The main drivers: Profitability, Valuation, Cash Flow, Growth, Capital Allocation, Price Momentum
-- Run tests over a ~30 year period 1993 - 2023
-### Screener 1
-- P/S vs. P/B ratio
-Steps:
-1. Calcualate CAGR over specified period
+- Run tests over a ~30 year period 1993 - 2023 or max
 
