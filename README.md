@@ -53,4 +53,8 @@
 ## A quantative analysis based screener:
 - The main drivers: Profitability, Valuation, Cash Flow, Growth, Capital Allocation, Price Momentum
 - Run tests over a ~30 year period 1993 - 2023 or max
+- These tests will be based on:
+  - Operating Cash Flow to Capital Expenditures
+  - P/E ratio
+  - 
 
