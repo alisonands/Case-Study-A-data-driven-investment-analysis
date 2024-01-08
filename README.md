@@ -56,6 +56,13 @@
 - These tests will be based on:
   - Operating Cash Flow to Capital Expenditures
   - P/E ratio
+ 
+### Operating Cash Flow to Capital Expenditures
+- This strategy looks at the amount of cash available in a company to fund its PP&E expenditures relative to it's cash flow
+- Companies generating high cash flows relative to it's expenditures has excess cash that it can allocate to dividends, reducing debt, repurchase of shares, etc. and will likely have less debt
+- Companies that do not generate enough cash flow, may not have financial flexibility
+- 
+
 - Data gathering: [IEX cloud](https://iexcloud.io/docs/api-basics)
 - Data cleaning:
   - Tickers with >5 counts of data
