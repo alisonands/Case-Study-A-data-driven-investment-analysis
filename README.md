@@ -56,5 +56,6 @@
 - These tests will be based on:
   - Operating Cash Flow to Capital Expenditures
   - P/E ratio
-  - 
-
+- Data gathering: [IEX cloud](https://iexcloud.io/docs/api-basics)
+- Data cleaning:
+  - Tickers with >5 counts of data
