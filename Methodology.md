@@ -29,4 +29,4 @@
 - Validate your strategy by checking if the outperformance or underperformance aligns with the expectations outlined in your initial strategy description.
 Remember to consider the potential impact of outliers or extreme values in your data. Also, check for any significant changes in the market environment over the 20-year period that might have influenced the results.
 
-This process should help you organize your universe into quintiles based on the operating cash flow to capex ratio and evaluate the performance of your strategy. If you have specific questions during any step of this process, feel free to ask!
+This process should help you organize your universe into quintiles based on the operating cash flow to capex ratio and evaluate the performance of your strategy. 
