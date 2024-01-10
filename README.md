@@ -1,4 +1,4 @@
-# Case study
+# Case study: A data-driven investment strategy
 
 ## Preliminary analysis
 - What makes a stock price appreciate?
@@ -15,7 +15,7 @@
 
 ### Stock Idea Generation
 - An attractive long position: undervalued by the market and under-earning.
-  - Under-earning --> the company is noe realizing its full potential
+  - Under-earning --> the company is not realizing its full potential
     - Given by P/E ratio less than 1
 - Resources
   - [WSJ](https://www.wsj.com/)
