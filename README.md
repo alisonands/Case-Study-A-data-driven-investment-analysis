@@ -1,68 +1,42 @@
-# Case study: A data-driven investment analysis
+# Case study: A data-drive investment analysis
 
-## Preliminary analysis
-- What makes a stock price appreciate?
-  - A stock price is simply an earnings metric multiplied by a multiple metric. The most common ways to value a stock are P/E (price/earnings), EV/EBITDA (enterprise value/EBITDA) and FCF/Market Capitalization (or Free Cash Flow yield)
-  - If a stock price is increasing, it is either being driven by higher earnings or multiple expansion. For example, if XYZ stock is trading at $10, and earns $1 per share in EPS, it is trading at 10x earnings.
-- For a company to be considered a good investment, solid earnings are essential
-  - Look at y-o-y or q-o-q results
-- ROE - Return on investment
-  - Net Income/Shareholder's Equity
-  - Measures the ability of a company's management to turn a profit
+## Summary
 
-#### Questions to be answered:
-- How have sectors performed over the years. What has grown, what has become relatively small? Show this in a plotly animation.
+## Introduction
+The purpose of this analysis is to explore variables of the financials of stocks to determine best ratios that result with low volatility and good returns, with the aim of enhancing portfolio development. The structure of this study is heavily infulenced by the methodology used in [Quantative Stratagies for Measuring Alpha](1). Specifically, we will look at Cash Flow factors, namely Operating Cash Flow and Capex. We will use the ratio Operating Cash Flow to Capex, to determine what the optimal ratio is that yields high returns. Note that this is not necessarily a standalone strategy, rather, it's purpose is to determine how the management of cash affects overall returns. The results from this analysis, paired with other relavant stratagies, can contribute to the development of a strong portfolio.
 
-### Stock Idea Generation
-- An attractive long position: undervalued by the market and under-earning.
-  - Under-earning --> the company is not realizing its full potential
-    - Given by P/E ratio less than 1
-- Resources
-  - [WSJ](https://www.wsj.com/)
-  - [NYtimes](https://www.nytimes.com/)
-  - [FT](https://www.ft.com/)
-- Traditional/Base screens:
-  - Low P/E value
-  - Low P/B calue
-  - Low EV/EBITDA
-  - High FCF
-  - Spin-offs
-  - Recent Insider Buying
-- Other factors:
-  - EV/Sales
-  - FCF/Market Cap
+### Common Screeners
+In order to narrow down the factors to Operating Cash Flow and Capex, sevaral other variables were taken into account. Some common variables used in screeners today are: P/E, ratio, P/B ratio, FCF, EV/EBITDA, Market Cap, Dividend Yield, ROE, etc. These metrics are well known, and are good indicators of the performance of a stock. This project aimed to test the efficiency of the use of cash in a companies expenditures, in comparison to the free cash flow. 
 
-*Note: Some metrics are industry specific
+### Operating cash flow to Capital Expenditures
+In the daily operations of a business, a certain level of expenditures is required to replace a companies PP&E expenses, and the operating cash flow looks at how much a company has available to fund this expense. Companies that have a high cash flow relative to their capex are generally more stable, have less debt, and have enough cash on hand to pay off their expenses. On the other hand, companies with little cash flow to capex may not have the financial flexibility to improve upon their performance. 
 
-1. Graphical comparison of one stock to various other industries stock metrics/ratios. What makes this one stock better than the others?
+## Methodology
+1. Data Gathering:
+- The dataset used is from the [IEX cloud](https://iexcloud.io/docs)(2) API database.
+- Stocks are gathered from [NASDAQ](https://www.nasdaq.com/market-activity/stocks/screener)(3) database and filtered to the **tech** industry, since 2013.
 
-## Value investing framework
-- When the price of a secutiry diverges from its intrinsinc value, a value investor should work to exploit that divergence
-- A security should be preferably purchased at a deep discount to its intrinsic value. This reduces risk
+2. Ranking Stocks:
+- For each year, the the stocks are ranked based on the operating cash flow to capex ratio.
 
- ## Industry Analysis
- - Study market size and growth
-  - i.e. marketing vs distribution for an industry can look very different
- - Historical Industry returns
- - Competitive positioning
-  - Cylical/Seasonal
-    
-#
-[1-page Hedge fund Case study](https://www.streetofwalls.com/finance-training-courses/hedge-fund-training/hedge-fund-case-study-1-page/)
+3. Quintile assignment:
+- The ranked list is then divided into quintiles, where the first quntile has the highest ratios of Operating Cash Flow to Capex and the fifth quintile has the lowest ratios.
 
-## A quantative analysis based screener:
-- The main drivers: Profitability, Valuation, Cash Flow, Growth, Capital Allocation, Price Momentum
-- Run tests over a ~30 year period 1993 - 2023 or max
-- These tests will be based on:
-  - Operating Cash Flow to Capital Expenditures
-  - P/E ratio
- 
-### Operating Cash Flow to Capital Expenditures
-- This strategy looks at the amount of cash available in a company to fund its PP&E expenditures relative to it's cash flow
-- Companies generating high cash flows relative to it's expenditures has excess cash that it can allocate to dividends, reducing debt, repurchase of shares, etc. and will likely have less debt
-- Companies that do not generate enough cash flow, may not have financial flexibility
-- 
+4. Analysis:
+- The returns based on the historical data is calculated for each quintile. 
+- The % change in closing prices is calculated annually, for each stock. 
+- The excess return compared to the universe is also calculated for comparison.
 
-- Data gathering: [IEX cloud](https://iexcloud.io/docs/api-basics)
-- Data cleaning:
-  - Tickers with >5 counts of data
+## Results
+- In a preliminary analysis, we can also see a linear relationship between Operating Cash Flow and Capex, which makes sense as a certain amount of cash is needed to attribute to PP&E.
+- The resulting graphs look at the quintiles with respect to the their yearly performance, volatility in returns, as well as excess returns.
+
+## Analysis
+When we look at the excess returns, we see that quintile 1 has the poorest performance, with an average excess return of -23.7%. These are the stocks with the highest Operating Cash Flow to Capex values. In comparison, it's volatility in returns is also relatively low, and is a good indicator. The average Operating Cash Flow to Capex ratio in quintile 3 is $20.29 \pm 5.46$ %. From this we can conclude that stocks that have 1.2x operating cash flow relative to their capex
+
+## Conclusion
+
+## References
+[1.] (Quantative Stratagies for measuring Alpha)
+[2.] [IEX cloud](https://iexcloud.io/docs)
+[3.] [NASDAQ](https://www.nasdaq.com/market-activity/stocks/screener)
