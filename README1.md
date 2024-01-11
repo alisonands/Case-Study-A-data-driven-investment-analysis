@@ -62,6 +62,3 @@
 - Companies generating high cash flows relative to it's expenditures has excess cash that it can allocate to dividends, reducing debt, repurchase of shares, etc. and will likely have less debt
 - Companies that do not generate enough cash flow, may not have financial flexibility
 
-- Data gathering: [IEX cloud](https://iexcloud.io/docs/api-basics)
-- Data cleaning:
-  - Tickers with >5 counts of data
