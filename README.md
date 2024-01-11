@@ -1,7 +1,5 @@
 # Case study: A data-drive investment analysis
 
-## Summary
-
 ## Introduction
 The purpose of this analysis is to explore variables of the financials of stocks to determine best ratios that result with low volatility and good returns, with the aim of enhancing portfolio development. The structure of this study is heavily infulenced by the methodology used in [Quantative Stratagies for Measuring Alpha](https://www.amazon.ca/Quantitative-Strategies-Achieving-Alpha-McGraw-Hill-ebook/dp/B001JKV93W/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)(1). Specifically, we will look at Cash Flow factors, namely Operating Cash Flow and Capex. For a company to be considered a good investment, solid earnings are essential. We will use the ratio Operating Cash Flow to Capex, to determine what the optimal ratio is that yields high returns. Note that this is not necessarily a standalone strategy, rather, it's purpose is to determine how the management of cash affects overall returns. The results from this analysis, paired with other relavant stratagies, can contribute to the development of a strong portfolio.
 
@@ -33,6 +31,7 @@ In the daily operations of a business, a certain level of expenditures is requir
 ## Results
 - In a preliminary analysis, we can also see a linear relationship between Operating Cash Flow and Capex, which makes sense as a certain amount of cash is needed to attribute to PP&E.
 - The resulting graphs look at the quintiles with respect to the their yearly performance, volatility in returns, as well as excess returns.
+[Annual_returns_based_on_date_and_quintile](images/returns1.png)
 
 ## Analysis
 When we look at the excess returns, we see that quintile 1 has the poorest performance, with an average excess return of -23.7%. These are the stocks with the highest Operating Cash Flow to Capex values. In comparison, it's volatility in returns is also relatively low, and is a good indicator. The average Operating Cash Flow to Capex ratio in quintile 3 is $20.29 \pm 5.46$ %. From this we can conclude that stocks that have 1.2x operating cash flow relative to their capex
