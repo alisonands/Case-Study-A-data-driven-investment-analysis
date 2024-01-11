@@ -32,6 +32,7 @@ In the daily operations of a business, a certain level of expenditures is requir
 - In a preliminary analysis, we can also see a linear relationship between Operating Cash Flow and Capex, which makes sense as a certain amount of cash is needed to attribute to PP&E.
 - The resulting graphs look at the quintiles with respect to the their yearly performance, volatility in returns, as well as excess returns.
 ![Annual_returns_based_on_date_and_quintile](images/returns1.png)
+![Excess_returns](images/excess_returns.png)
 
 ## Analysis
 When we look at the excess returns, we see that quintile 1 has the poorest performance, with an average excess return of -23.7%. These are the stocks with the highest Operating Cash Flow to Capex values. In comparison, it's volatility in returns is also relatively low, and is a good indicator. The average Operating Cash Flow to Capex ratio in quintile 3 is $20.29 \pm 5.46$ %. From this we can conclude that stocks that have 1.2x operating cash flow relative to their capex
