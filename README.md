@@ -1,4 +1,4 @@
-# Case study: A data-driven investment strategy
+# Case study: A data-driven investment analysis
 
 ## Preliminary analysis
 - What makes a stock price appreciate?
