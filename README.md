@@ -30,6 +30,7 @@ In the daily operations of a business, a certain level of expenditures is requir
 
 ## Results
 - In a preliminary analysis, we can also see a linear relationship between Operating Cash Flow and Capex, which makes sense as a certain amount of cash is needed to attribute to PP&E.
+![Operating_cash_flow_to_capex](images/opcash_to_capex.png)
 
 - The resulting graphs look at the quintiles with respect to the their yearly performance, volatility in returns, as well as excess returns.
 ![Annual_returns_based_on_date_and_quintile](images/returns1.png)
@@ -43,6 +44,7 @@ When we look at the excess returns, we see that quintile 1 has the poorest perfo
 - Some stocks do not have data for as long as others
 
 ## Conclusion
+In conclusion, the Operating Cash Flow to Capex ratio is a valuable metric for assessing a company's financial health. While Quintile 1 showed poor excess returns, its stability makes it an interesting area for further investigation. The findings contribute to a nuanced understanding of the relationship between cash management and stock performance, offering insights for constructing a resilient investment portfolio.
 
 ## References
 [1.] (Quantative Stratagies for measuring Alpha)
