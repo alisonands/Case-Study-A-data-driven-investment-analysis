@@ -15,7 +15,7 @@ In the daily operations of a business, a certain level of expenditures is requir
 ## Methodology
 1. Data Gathering:
 - The dataset used is from the [IEX cloud](https://iexcloud.io/docs)(2) API database.
-- Stocks are gathered from [NASDAQ](https://www.nasdaq.com/market-activity/stocks/screener)(3) database and filtered to the **tech** industry, since 2013.
+- Stocks are gathered from [NASDAQ](https://www.nasdaq.com/market-activity/stocks/screener)(3) database and filtered to the **tech** industry, since 2008.
 
 2. Ranking Stocks:
 - For each year, the the stocks are ranked based on the operating cash flow to capex ratio.
