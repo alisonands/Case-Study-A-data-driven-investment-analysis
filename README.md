@@ -30,6 +30,7 @@ In the daily operations of a business, a certain level of expenditures is requir
 
 ## Results
 - In a preliminary analysis, we can also see a linear relationship between Operating Cash Flow and Capex, which makes sense as a certain amount of cash is needed to attribute to PP&E.
+
 - The resulting graphs look at the quintiles with respect to the their yearly performance, volatility in returns, as well as excess returns.
 ![Annual_returns_based_on_date_and_quintile](images/returns1.png)
 ![Excess_returns](images/excess_returns.png)
