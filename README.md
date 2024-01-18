@@ -37,10 +37,12 @@ In the daily operations of a business, a certain level of expenditures is requir
 ![Excess_returns](images/excess_returns.png)
 
 ## Analysis
-When we look at the excess returns, we see that quintile 1 has the poorest performance, with an average excess return of -23.7%. These are the stocks with the highest Operating Cash Flow to Capex values. In comparison, it's volatility in returns is also relatively low, and is a good indicator. The average Operating Cash Flow to Capex ratio in quintile 3 is $20.29 \pm 5.46$ %. From this we can conclude that stocks that have 1.2x operating cash flow relative to their capex
+When we look at the excess returns, we see that quintile 1 has the poorest performance, with an average excess return of -23.7%. These are the stocks with the highest Operating Cash Flow to Capex values. Paired with a high volatility, we can conclude that we can conclude that stocks with higher Operating Cash Flow to Capex are likely not stable, and will not be a good choice for portfolios. In contrast, Quintile 3 has high excess returns with overall lower volatility, and we can conclude these stocks are likely the best to invest in, and the most stable. The average Operating Cash Flow to Capex ratio in quintile 3 is $20.29 \pm 5.46$ %. From this we can conclude that stocks that have 1.2x operating cash flow relative to their capex.
+
+We should also note that quintiles 2, 4, and 5 also yield good returns, and paired with other strategies and industries, will be useful in determining the returns of such stocks.
 
 ## Limatations
-- Metrics can be industry specific
+- Metrics can be industry specific. In this study, we have only taken into account metrics from the tech industry.
 - Some stocks do not have data for as long as others
 
 ## Conclusion
