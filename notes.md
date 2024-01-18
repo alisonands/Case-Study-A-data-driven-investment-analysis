@@ -1,7 +1,7 @@
 # Case study: A data-driven investment analysis
-
+[Further exploration...]
 #### Questions to be answered:
-- How have sectors performed over the years. What has grown, what has become relatively small? Show this in a plotly animation.
+- How have sectors performed over the years. What has grown, what has become relatively small? can be shown in a plotly animation?
 ### Industry Analysis
  - Study market size and growth
   - i.e. marketing vs distribution for an industry can look very different
